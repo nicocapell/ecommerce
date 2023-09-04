@@ -1,0 +1,65 @@
+{
+  "vtex.menu@2.x:menu#menu-links": {
+    "props": {
+      "blockClass": "menu"
+    },
+    "children": [
+      "menu-item#menu1",
+      "menu-item#menu2",
+      "menu-item#menu3"
+    ]
+  },
+
+  "menu-item#menu1": {
+    "props": {
+      "id": "menu1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "menu1",
+        "text": "Menu 1"
+      }
+    }
+  },
+
+  "menu-item#menu2": {
+    "props": {
+      "id": "menu2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "menu 2",
+        "text": "Menu 2"
+      }
+    }
+  },
+
+  "menu-item#menu3": {
+    "props": {
+      "id": "menu3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "menu3",
+        "text": "Menu 3"
+      }
+    }
+  }
+
+
+}

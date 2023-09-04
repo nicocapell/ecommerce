@@ -1,0 +1,35 @@
+/* - MENU LINKS - */
+
+.menuContainer--menu {
+  display: flex;
+  justify-content: space-around;
+}
+  
+@media (max-width: 1366px) {
+  .menuContainer--menu {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1135px) and (min-width: 1025px) {
+  .menuContainer--menu {
+    gap: 40px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer--menu)
+    :global(.vtex-menu-2-x-menuItem):last-child {
+    display: none;
+  }
+}
+
+.styledLinkContainer--menu-item {
+  margin: 0;
+  padding: 15px 21px;
+}
+
+.styledLinkContent--menu-item {
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  color: #000000;
+  font-weight: 500;
+}

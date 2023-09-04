@@ -1,0 +1,88 @@
+/* ===== HEADER MB ===== */
+  
+  @media screen and (max-width: 1025px) {
+  
+  .notificationContent--top-bar-envios {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .logoLink--logo-store {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+  }
+  
+  .logoImage--logo-store {
+    height: 25px;
+    max-width: none !important;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  
+  }
+  
+ 
+   .searchBarIcon--search::after {
+     background: url("data:image/svg+xml,%0A%3Csvg id='zoom' xmlns='http://www.w3.org/2000/svg' width='14.407' height='14.407' viewBox='0 0 14.407 14.407'%3E%3Cg id='Grupo_76' data-name='Grupo 76'%3E%3Cpath id='Trazado_58' data-name='Trazado 58' d='M5.907,0a5.9,5.9,0,0,1,4.554,9.666l3.945,3.945-.8.8L9.666,10.461A5.906,5.906,0,1,1,5.907,0Zm0,10.689A4.782,4.782,0,1,0,1.125,5.907,4.788,4.788,0,0,0,5.907,10.689Z' fill='%234e4e4e'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center center / contain;
+     background-size: 14px;
+     content: '';
+     display: inline-block;
+     height: 20px;
+     width: 15px;
+   }
+   .searchBarIcon--search .searchIcon {
+     display: none;
+   }
+  }
+
+  @media screen and (max-width: 1025px) {
+    .searchBarContainer {
+      max-width: none;
+    }
+    .portalContainer {
+      position: initial !important;
+    }
+    .autoCompleteOuterContainer {
+      border-radius: 40px;
+      background: #fff;
+    }
+    .autoCompleteOuterContainer :global(.vtex-input) {
+      display: flex;
+      justify-content: center;
+    }
+    .searchBarContainer :global(.vtex-input-prefix__group) {
+      width: 100%;
+      margin: 30px;
+      background: #fff;
+      height: 35px;
+      margin-top: -20px;
+      border: 1px solid #E8E8E8;
+      margin-bottom: 8px;
+    }
+    .searchBarContainer :global(.vtex-styleguide-9-x-input),
+    .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+      color: #000000;
+      font-size: 12px;
+      text-align: left;
+    }
+
+    .resultsList {
+      top: 182px;
+    }
+  }
+  
+  /*-*/
+  @media screen and (max-width: 768px) {
+    .resultsList {
+      max-height: 40vh;
+      overflow: auto;
+      overflow-x: hidden;
+      box-shadow: 0 3px 7px #00000040;
+    }
+    .resultsItem .resultsItemImage {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  

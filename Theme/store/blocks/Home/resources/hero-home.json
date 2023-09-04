@@ -1,0 +1,35 @@
+{
+
+  "list-context.image-list#hero-home": {
+    "children": ["slider-layout#slider-hero-home"],
+    "props": {
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "https://vtex.com/wp-content/uploads/2022/12/2022_07_11unicentro_banner-copy@2x.png"
+        },
+        {
+          "image": "https://vtex.com/wp-content/uploads/2022/12/2022_07_11unicentro_banner-copy@2x.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-hero-home": {
+    "props": {
+      "showPaginationDots0":"never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "blockClass": "heroHome"
+    }
+  }
+
+}

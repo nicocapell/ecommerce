@@ -1,0 +1,36 @@
+ /* ===== FOOTER MB ===== */
+ .flexRow--main-footer-mb {
+  background-color: #ebebeb;
+  margin-block-start: 70px;
+ }
+
+ @media screen and (max-width:768px) {
+
+  .flexRowContent--main-footer-mb {
+    padding-block-end: 80px;
+  }
+
+  .flexRowContent--inst-derechos1 {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 8px 15px;
+    margin-left: 11px;
+  }
+
+  .flexRowContent--inst-mb1 .stretchChildrenWidth {
+    padding:20px 18px 7px;
+  }
+
+  .flexRowContent--inst-mb2 {
+    margin-top: 25px;
+  }
+
+  .flexRowContent--inst-mb2 .stretchChildrenWidth:nth-child(0n+4) {
+    height: 20px;
+  }
+  
+ }

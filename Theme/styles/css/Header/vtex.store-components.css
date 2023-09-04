@@ -1,0 +1,87 @@
+/* ===== HEADER ===== */
+.logoImage--header-logo {
+  display: inline-block;
+  width: 240px;
+}
+
+
+/*-*/
+.searchBarContainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 0;
+  border-radius: 4px;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  display: grid;
+  grid-template-columns: 50px auto;
+  height: 36px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e8e8e8;
+  border-radius: 25px;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  grid-row: 1;
+  grid-column: 2;
+  padding: 0;
+  font-size: 12px;
+  color: #000000;
+  background: transparent;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-size: 16px;
+  color: #707070;
+}
+.searchBarContainer :global(.vtex-input__suffix) {
+  grid-row: 1;
+  grid-column: 1;
+  padding-right: 15px;
+  background: transparent;
+  border-radius: 0;
+}
+.searchBarIcon--search,
+.searchBarIcon--clear {
+  padding-right: 0;
+}
+.searchBarIcon--search::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,%0A%3Csvg id='zoom' xmlns='http://www.w3.org/2000/svg' width='14.407' height='14.407' viewBox='0 0 14.407 14.407'%3E%3Cg id='Grupo_76' data-name='Grupo 76'%3E%3Cpath id='Trazado_58' data-name='Trazado 58' d='M5.907,0a5.9,5.9,0,0,1,4.554,9.666l3.945,3.945-.8.8L9.666,10.461A5.906,5.906,0,1,1,5.907,0Zm0,10.689A4.782,4.782,0,1,0,1.125,5.907,4.788,4.788,0,0,0,5.907,10.689Z' fill='%234e4e4e'/%3E%3C/g%3E%3C/svg%3E%0A")
+    no-repeat center center / contain;
+  background-size: 19px;
+}
+.searchBarIcon--search .searchIcon {
+  display: none;
+}
+.searchBarIcon--clear .closeIcon {
+  width: 19px;
+  height: 19px;
+  color: #4e4e4e;
+}
+.resultsItem {
+  padding: 12px 12px;
+  position: relative;
+}
+.resultsItem::after {
+  border-bottom: 1px solid #00000030;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  left: calc(0px + 12px);
+  position: absolute;
+  right: calc(0px + 12px);
+}
+.resultsItem .resultsItemImage {
+  border: 1px solid #00000030;
+  border-radius: 30px;
+}
+.resultsItem .resultsItemName {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.imageElement--heroHome {
+  max-height: none!important;
+}

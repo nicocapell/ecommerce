@@ -1,0 +1,29 @@
+  /* MOBILE */
+
+
+  @media screen and (max-width: 1025px) {
+  
+
+    .flexRowContent--header-mb-r2 .stretchChildrenWidth:first-child{
+        display: flex;
+        justify-content: flex-start;
+    }
+  
+    .flexRowContent--header-mb-r2 {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      padding: 7px 20px; 
+      margin-block-end: 15px; 
+    
+    }
+
+    .flexRow--header-mb-r3 :global(.vtex-store-components-3-x-container){
+      padding: 0;
+    }
+
+ 
+  }
+  

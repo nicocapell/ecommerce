@@ -1,0 +1,8 @@
+@media screen and (max-width:768px) {
+
+  .minicartContainer :global(.vtex-button)::after {
+    width: 25px;
+    height: 28px;
+  }
+  
+}

@@ -1,0 +1,48 @@
+{
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#main-footer-mb"
+    ]
+  },
+
+  /* ----- MAIN FOOTER MB ----- */
+  "flex-layout.row#main-footer-mb": {
+    "props": {
+      "blockClass": "main-footer-mb"
+    },
+    "children": [
+      "flex-layout.row#inst-mb1",
+      "flex-layout.row#inst-mb2",
+      "flex-layout.col#social-footer"
+    ]
+  },
+
+  /*-*/
+  "flex-layout.row#inst-mb1": {
+    "props": {
+      "blockClass": "inst-mb1"
+    },
+    "children": [
+      "link#nosotros",
+      "link#preg-frecuentes",
+      "link#politica-cambios",
+      "link#terminos-condiciones",
+      "link#como-comprar",
+      "link#politica-priv"
+    ]
+  },
+
+  /*-*/
+  "flex-layout.row#inst-mb2": {
+    "props": {
+      "blockClass": "inst-mb2"
+    },
+    "children": [
+      "rich-text#contact-footer",
+      "link#phone",
+      "link#mail",
+      "link#arrepentimiento"
+    ]
+  }
+  
+}

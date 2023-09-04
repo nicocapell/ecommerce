@@ -1,0 +1,47 @@
+/* ===== FOOTER ===== */
+.logoContainer--logo-inst {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  padding: 0;
+}
+
+.logoImage--kudos-footer {
+  width: 80px;
+  height: 23px;
+}
+
+.logoImage--vtex-footer {
+  width: 60px;
+  height: 22px;
+}
+
+.logoImage--cace-footer {
+  width: 66px;
+  height: 31px;
+}
+
+.logoImage--afip-footer {
+  width: 24px;
+  height: 31px;
+}
+
+.logoImage--logo-cyber {
+  width: 48px;
+  height: 38px;
+}
+
+.logoImage--logo-hot {
+  width: 40px;
+  height: 40px;
+}
+
+/* ===== FOOTER MB ===== */
+@media screen and (max-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--social-mb)
+    .logoImage--logo-inst {
+    height: 30px;
+  }
+}

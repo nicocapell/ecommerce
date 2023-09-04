@@ -1,0 +1,45 @@
+/* ===== FOOTER ===== */
+/* - MAIN FOOTER - */
+.flexRow--main-footer {
+    background-color: #ebebeb;
+    height: 306px;
+    margin-block-start: 70px;
+  }
+  .flexRowContent--main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 0;
+  }
+  .flexRowContent--main-footer .stretchChildrenWidth {
+    width: auto !important;
+  }
+
+  .flexColChild--inst-footer:not(:last-child) {
+    height: 22px !important;
+    margin-bottom: 16px;
+  }
+  .flexColChild--inst-footer {
+    height: auto !important;
+  }
+ 
+  
+  /* - DERECHOS FOOTER  - */
+  .flexRow--derechos-footer {
+    background: #fff;
+    height: 65px;
+  }
+  .flexRowContent--derechos-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 22px 0 11px;
+  }
+  .flexRowContent--derechos-footer .stretchChildrenWidth {
+    width: auto !important;
+  }
+
+  .flexRow--inst-footer-promos {
+    margin-top: 55px;
+  }
+  

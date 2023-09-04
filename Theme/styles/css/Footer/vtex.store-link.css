@@ -1,0 +1,64 @@
+/* ===== FOOTER ===== */
+.label--inst-footer {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.link--footer-logo {
+  text-decoration: none;
+}
+
+.childrenContainer--footer-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.childrenContainer--footer-logo
+  :global(.vtex-store-components-3-x-logoContainer--logo-inst) {
+  margin-right: 13px;
+  min-width: fit-content;
+  padding: 0;
+}
+.link--arrepentimiento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff679d;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  color: #fff;
+  width: 307px;
+  height: 50px;
+  margin-top: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* ===== FOOTER MB ===== */
+@media screen and (max-width: 1025px) {
+  .label--inst-footer {
+    font-size: 13px;
+  }
+  .link--arrepentimiento {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 95px;
+    width: 90%!important;
+
+  }
+  .label--arrepentimiento {
+    white-space: nowrap;
+  }
+
+  .childrenContainer--footer-logo {
+    padding-left: 18px;
+    height: 35px;
+  }
+
+
+}

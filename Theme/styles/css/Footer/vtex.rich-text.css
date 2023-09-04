@@ -1,0 +1,56 @@
+/* ===== FOOTER ===== */
+.paragraph--tit-footer {
+    font-size: 13px;
+    color: #000000;
+    font-weight: 400;
+  }
+  .paragraph--footer-txt,
+  .link--footer-txt {
+    font-size: 13px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  /*-*/
+  .paragraph--derechos {
+    font-size: 14px;
+    color: #000000;
+  }
+
+
+  
+  /* ===== FOOTER MB ===== */
+  @media screen and (max-width: 1025px) {
+    .paragraph--tit-footer,
+    .paragraph--footer-txt,
+    .link--footer-txt {
+      font-size: 13px;
+    }
+
+    .wrapper--tit-footer {
+      padding-left: 18px;
+    }
+  
+    /*-*/
+    :global(.vtex-flex-layout-0-x-flexRowContent--social-mb)
+      .container--footer-txt {
+      background: crimson;
+      display: none;
+    }
+  
+    /*-*/
+    .container--derechos {
+      display: flex;
+      justify-content: center;
+    }
+    .paragraph--derechos {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .paragraph--derechos {
+      font-size: 10px;
+    }
+  }
+  

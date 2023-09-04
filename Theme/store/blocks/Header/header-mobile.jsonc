@@ -1,0 +1,66 @@
+{
+  /* ===== MOBILE ===== */
+
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header-mb"
+    },
+    "children": [
+      "flex-layout.row#header-mb-r2",
+      "flex-layout.row#header-mb-r3"
+      
+    ]
+  },
+
+
+  /* ----- ROW 2 MB ----- */
+
+
+  "flex-layout.row#header-mb-r2": {
+    "props": {
+      "blockClass": "header-mb-r2"
+    },
+    "children": [
+      "drawer",
+      "flex-layout.col#logo-ds",
+      "login",
+      "minicart.v2"
+      
+    ]
+  },
+
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-links"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  
+
+  
+  "flex-layout.row#header-mb-r3": {
+    "props": {
+      "blockClass": "header-mb-r3"
+    },
+    "children": [
+      "search-bar"
+      
+    ]
+  }
+
+
+}

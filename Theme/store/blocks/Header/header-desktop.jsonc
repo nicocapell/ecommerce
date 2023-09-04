@@ -1,0 +1,103 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#header-desktop"
+    ]
+  },
+
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "sticky-header-ds"
+    },
+    "children": [
+      "flex-layout.row#header-mid-ds",
+      "flex-layout.row#header-menu-ds"
+    ]
+  },
+
+
+
+  /* ===== 2 ROW ===== */
+  "flex-layout.row#header-mid-ds": {
+    "props": {
+      "blockClass": "header-mid-ds"
+    },
+    "children": [
+      "flex-layout.col#logo-ds",
+      "flex-layout.col#search-ds",
+      "flex-layout.col#login-cart-ds"
+    ]
+  },
+
+  /* ----- LOGO ----- */
+  "flex-layout.col#logo-ds": {
+    "props": {
+      "blockClass": "logo-ds"
+    },
+    "children": [
+      "logo#header-ds"
+    ]
+  },
+
+  "logo#header-ds": {
+    "props": {
+      "url": "https://storecomponents.vtexassets.com/arquivos/store-theme-logo.png",
+      "href": "/",
+      "blockClass": "header-logo"
+    }
+  },
+
+ /* ----- SEARCH ----- */
+  "flex-layout.col#search-ds": {
+    "props": {
+      "blockClass": "search-ds"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué estás buscando?",
+      "autocompleteAlignment": "right",
+      "containerMode": "container"
+    }
+  },
+
+ /* ----- LOGIN - CART ----- */
+  "flex-layout.col#login-cart-ds": {
+    "props": {
+      "blockClass": "login-cart-ds"
+    },
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  "login": {
+    "props": {
+      "iconLabel": "Iniciar Sesión",
+      "showIconProfile": true,
+      "optionsTitle": "Elija una opción para ingresar",
+      "emailAndPasswordTitle": "Ingresa con e-mail y contraseña",
+      "accessCodeTitle": "Recibir código de acceso por e-mail",
+      "passwordPlaceholder": "Ingrese su contraseña",
+      "hasGoogleOneTap": true
+    }
+  },
+
+  /* ===== 3 ROW ===== */
+  "flex-layout.row#header-menu-ds": {
+    "props": {
+      "blockClass": "header-menu-ds"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu-links"
+    ]
+  }
+
+
+}

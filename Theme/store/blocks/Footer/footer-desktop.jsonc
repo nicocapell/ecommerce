@@ -1,0 +1,232 @@
+{
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#main-footer"
+    ]
+  },
+
+  /* ----- MAIN FOOTER ----- */
+  "flex-layout.row#main-footer": {
+    "props": {
+      "blockClass": "main-footer"
+    },
+    "children": [
+      "flex-layout.col#inst-footer",
+      "flex-layout.col#contacto-footer",
+      "flex-layout.col#social-footer"
+
+    ]
+  },
+
+
+  /* - COL INSTITUCIONALES - */
+  "flex-layout.col#inst-footer": {
+    "props": {
+      "blockClass": "inst-footer"
+    },
+    "children": [
+      "link#nosotros",
+      "link#preg-frecuentes",
+      "link#politica-cambios",
+      "link#terminos-condiciones",
+      "link#como-comprar",
+      "link#politica-priv"
+    ]
+  },
+
+
+
+  "link#nosotros": {
+    "props": {
+      "label": "Nosotros",
+      "href": "/nosotros",
+      "blockClass": "inst-footer"
+    }
+  },
+
+  
+  "link#terminos-condiciones": {
+    "props": {
+      "label": "Términos y condiciones",
+      "href": "/terminos-y-condiciones",
+      "blockClass": "inst-footer"
+    }
+  },
+
+
+  "link#politica-cambios": {
+    "props": {
+      "label": "Política de cambio",
+      "href": "/politica-de-cambio",
+      "blockClass": "inst-footer"
+    }
+  },
+
+  "link#como-comprar": {
+    "props": {
+      "label": "Cómo Comprar",
+      "href": "/como-comprar",
+      "blockClass": "inst-footer"
+    }
+  },
+
+  "link#preg-frecuentes": {
+    "props": {
+      "label": "Preguntas Frecuentes",
+      "href": "/preguntas-frecuentes",
+      "blockClass": "inst-footer"
+    }
+  },
+
+  "link#politica-priv": {
+    "props": {
+      "label": "Políticas de Privacidad",
+      "href": "/politica-de-privacidad",
+      "blockClass": "inst-footer"
+    }
+  },
+
+  /* - COL CONTACTO - */
+  "flex-layout.col#contacto-footer": {
+    "props": {
+      "blockClass": "inst-footer"
+    },
+    "children": [
+      "rich-text#contact-footer",
+      "link#phone",
+      "link#mail",
+      "link#arrepentimiento"
+    ]
+  },
+
+  "rich-text#contact-footer": {
+    "props": {
+      "text": "Contacto",
+      "blockClass": "tit-footer"
+    }
+  },
+
+  "link#phone": {
+    "props": {
+      "href": "",
+      "target": "_blank",
+      "blockClass": "footer-logo"
+    },
+    "children": [
+      "logo#phone",
+      "rich-text#phone"
+    ]
+  },
+  "logo#phone": {
+    "props": {
+      "url": "data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.333' height='12.329' viewBox='0 0 12.333 12.329'%3E%3Cpath id='phone' d='M14.275,15.7h-.081c-9.318-.536-10.641-8.4-10.826-10.8A1.423,1.423,0,0,1,4.678,3.375H7.29a.948.948,0,0,1,.882.6l.72,1.774A.948.948,0,0,1,8.684,6.77L7.674,7.79a4.443,4.443,0,0,0,3.594,3.6l1.029-1.02a.948.948,0,0,1,1.029-.194l1.788.716a.948.948,0,0,1,.584.882v2.5A1.423,1.423,0,0,1,14.275,15.7ZM4.791,4.323a.474.474,0,0,0-.474.474v.038c.218,2.807,1.617,9.446,9.93,9.92a.474.474,0,0,0,.5-.446V11.778l-1.788-.716L11.6,12.413l-.228-.029A5.52,5.52,0,0,1,6.689,7.7L6.66,7.472,8.007,6.111,7.3,4.323Z' transform='translate(-3.364 -3.375)' fill='%23ff679d'/%3E%3C/svg%3E%0A",
+      "blockClass": "logo-inst"
+    }
+  },
+  "rich-text#phone": {
+    "props": {
+      "text": "+5492613206001",
+      "blockClass": "footer-txt"
+    }
+  },
+
+  "link#mail": {
+    "props": {
+      "href": "",
+      "target": "_blank",
+      "blockClass": "footer-logo"
+    },
+    "children": [
+      "logo#mail",
+      "rich-text#mail"
+    ]
+  },
+  "logo#mail": {
+    "props": {
+      "url": "data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.333' height='9.867' viewBox='0 0 12.333 9.867'%3E%3Cpath id='mail' d='M4.233,9.7v4.933H14.1V9.7L9.167,11.55Zm0-2.467V8.467l4.933,1.85L14.1,8.467V7.233ZM4.233,6H14.1a1.233,1.233,0,0,1,1.233,1.233v7.4A1.233,1.233,0,0,1,14.1,15.867H4.233A1.233,1.233,0,0,1,3,14.633v-7.4A1.233,1.233,0,0,1,4.233,6Z' transform='translate(-3 -6)' fill='%23ff679d'/%3E%3C/svg%3E",
+      "blockClass": "logo-inst"
+    }
+  },
+  "rich-text#mail": {
+    "props": {
+      "text": "ecommerce@ecommerce.com.ar",
+      "blockClass": "footer-txt"
+    }
+  },
+
+  "link#arrepentimiento": {
+    "props": {
+      "label": "Arrepentimiento de compra",
+      "href": "/arrepentimiento-de-compra",
+      "blockClass": "arrepentimiento"
+    }
+  },
+
+  /* - COL SOCIAL - */
+  "flex-layout.col#social-footer": {
+    "props": {
+      "blockClass": "inst-footer"
+    },
+    "children": [
+      "rich-text#social-footer",
+      "link#footer-fb",
+      "link#footer-ig"
+    ]
+  },
+
+  "rich-text#social-footer": {
+    "props": {
+      "text": "Redes Sociales",
+      "blockClass": "tit-footer"
+    }
+  },
+
+  "link#footer-fb": {
+    "props": {
+      "href": "",
+      "target": "_blank",
+      "blockClass": "footer-logo"
+    },
+    "children": [
+      "logo#footer-fb",
+      "rich-text#footer-fb"
+    ]
+  },
+  "logo#footer-fb": {
+    "props": {
+      "url": "data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.334' height='12.334' viewBox='0 0 12.334 12.334'%3E%3Cpath id='facebook-square' d='M10.021,0a2.228,2.228,0,0,1,1.634.678,2.226,2.226,0,0,1,.678,1.634v7.709a2.316,2.316,0,0,1-2.313,2.313H8.512V7.556h1.6l.241-1.863H8.512V4.5A1.029,1.029,0,0,1,8.7,3.83a.937.937,0,0,1,.735-.225l.98-.008V1.935a10.763,10.763,0,0,0-1.429-.072,2.385,2.385,0,0,0-1.747.642A2.428,2.428,0,0,0,6.585,4.32V5.693H4.978V7.556H6.585v4.778H2.313a2.228,2.228,0,0,1-1.634-.678A2.226,2.226,0,0,1,0,10.021V2.313A2.228,2.228,0,0,1,.678.678,2.226,2.226,0,0,1,2.313,0Z' fill='%23ff679d'/%3E%3C/svg%3E ",
+      "blockClass": "logo-inst"
+    }
+  },
+  "rich-text#footer-fb": {
+    "props": {
+      "text": "facebook",
+      "blockClass": "footer-txt"
+    }
+  },
+
+  "link#footer-ig": {
+    "props": {
+      "href": "",
+      "target": "_blank",
+      "blockClass": "footer-logo"
+    },
+    "children": [
+      "logo#footer-ig",
+      "rich-text#footer-ig"
+    ]
+  },
+  "logo#footer-ig": {
+    "props": {
+      "url": "data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.334' height='12.334' viewBox='0 0 12.334 12.334'%3E%3Cpath id='Trazado_53705' data-name='Trazado 53705' d='M24.168,18c-1.675,0-1.885.007-2.543.037a4.526,4.526,0,0,0-1.5.287,3.155,3.155,0,0,0-1.8,1.8,4.5,4.5,0,0,0-.287,1.5c-.029.658-.037.868-.037,2.543s.007,1.884.037,2.542a4.532,4.532,0,0,0,.287,1.5,3.156,3.156,0,0,0,1.8,1.8,4.53,4.53,0,0,0,1.5.287c.658.03.868.037,2.543.037s1.885-.007,2.542-.037a4.532,4.532,0,0,0,1.5-.287,3.16,3.16,0,0,0,1.8-1.8,4.571,4.571,0,0,0,.287-1.5c.03-.658.037-.868.037-2.542s-.008-1.885-.037-2.543a4.569,4.569,0,0,0-.287-1.5,3.155,3.155,0,0,0-1.8-1.8,4.54,4.54,0,0,0-1.5-.287c-.658-.03-.867-.037-2.543-.037Zm-.553,1.111h.553c1.647,0,1.842.006,2.492.035a3.414,3.414,0,0,1,1.145.212,2.043,2.043,0,0,1,1.17,1.17,3.408,3.408,0,0,1,.212,1.145c.03.65.036.845.036,2.491s-.006,1.841-.036,2.491a3.411,3.411,0,0,1-.212,1.145,2.045,2.045,0,0,1-1.17,1.17,3.4,3.4,0,0,1-1.145.213c-.65.03-.845.036-2.492.036s-1.842-.006-2.492-.036a3.421,3.421,0,0,1-1.145-.213A2.043,2.043,0,0,1,19.36,27.8a3.408,3.408,0,0,1-.212-1.145c-.03-.65-.035-.845-.035-2.492s.006-1.841.035-2.491a3.414,3.414,0,0,1,.212-1.145,2.044,2.044,0,0,1,1.171-1.171,3.407,3.407,0,0,1,1.145-.213c.569-.026.789-.033,1.939-.035Zm3.845,1.024a.74.74,0,1,0,.74.74.74.74,0,0,0-.74-.74ZM24.168,21a3.167,3.167,0,1,0,3.167,3.167A3.167,3.167,0,0,0,24.168,21Zm0,1.111a2.056,2.056,0,1,1-2.056,2.056A2.056,2.056,0,0,1,24.168,22.111Z' transform='translate(-18 -18)' fill='%23ff679d'/%3E%3C/svg%3E ",
+      "blockClass": "logo-inst"
+    }
+  },
+  "rich-text#footer-ig": {
+    "props": {
+      "text": "instagram",
+      "blockClass": "footer-txt"
+    }
+  }
+
+}
